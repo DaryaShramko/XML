@@ -1,0 +1,11 @@
+<AboutMe>
+ <MyName>Darya Shramko </MyName>
+ <age>25</age>
+ <MyPets>
+ <DogsName>Roki</DogsName>
+ <Rat1>Shura</Rat1>
+ <Rat2>Mura</Rat2>
+ <Fish>Eduard</Fish>
+ </MyPets>
+ <MySalary>500</MySalary>
+</AboutMe>

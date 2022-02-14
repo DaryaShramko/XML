@@ -1,0 +1,500 @@
+   65  cd lesson
+   66  cd qa
+   67  ls -la
+   68  ls -r l1
+   69  ls -r qa
+   70  ls -r -la 
+   71  ls -r -la three.txt
+   72  ls l1
+   73  ls l1
+   74  ls -R
+   75  ls -R -la
+   76  ls -R l1
+   77  ls -R l1
+   78  ls -r -la 
+   79  cd l1
+   80  rm f2.txt
+   81  cat f2.txt
+   82  cd qa
+   83  cd ..
+   84  cat three.txt
+   85  cat -b
+   86  cat -b three.txt
+   87  cat -n three.txt
+   88  cat three.txt | less
+   89  less three.txt
+   90  cat three.txt > daryaw.txt
+   91  cat three.txt daryaw.txt > f3.txt
+   92  cat three.txt darya.txt > f4.txt
+   93  cat f4.txt
+   94  cat f4 | sort >f4
+   95  cat three.txt daryaw.txt f4.txt | sort
+   96  cat three.txt daryaw.txt f4.txt | sort > f4
+   97  cat -b 3 three.txt
+   98  find f4.txt
+   99  cd ..
+  100  find f4.txt
+  101  find f4.txt *
+  102  find -name f*
+  103  find . -name f*
+  104  ls -la
+  105  find \qa - name *.txt
+  106  find \qa -name *.txt
+  107  find qa
+  108  cd project1
+  109  cd project1
+  110  mkdir lol.json
+  111  mkdir POP.json
+  112  find \lesson -iname f*.txt
+  113  find \lesson -iname f*.txt
+  114  mkdir TOP
+  115  find \lesson -iname t*.txt
+  116  cd qa
+  117  find \qa -iname t*.txt
+  118  find \qa -iname t*.txt
+  119  cd ..
+  120  cd qa
+  121  cd l1
+  122  cd ..
+  123  cat three.txt
+  124  grep not three.txt
+  125  grep not *
+  126  cd papka
+  127  cd ..
+  128  cd..
+  129  cd ..
+  130  cat f1.txt
+  131  grep -w qasgfhfn
+  132  grep -w qasgfhfn*
+  133  grep -w qasgfhfn*
+  134  grep -w qa*
+  135  grep -w qa
+  136  cat f1.txt
+  137  grep q*
+  138  grep q* f1.txt
+  139  grep q* f1.txt
+  140  grep qa* f1.txt
+  141  grep -w qa* f1.txt
+  142  grep -i qa* f1.txt
+  143  grep -i qa *
+  144  grep -w qa *
+  145  grep -r qa *
+  146  grep -r -i qa *
+  147  grep -v qa *
+  148  grep -r -v qa *
+  149  grep -rv a *
+  150  grep -rl a 
+  151  grep -r -m2 qa *
+  152  cat three.txt
+  153  cd lesson
+  154  cd qa
+  155  cat three.txt
+  156  grep -r -m3
+  157  grep -r -m3 three.txt
+  158  grep -rm3 three.txt
+  159  grep -rm3 three.txt *
+  160  grep -r -m3 three.txt 
+  161  ./myscript
+  162  ls
+  163  vim myscript1
+  164  chmod +x ./myscript1
+  165  ./myscript
+  166  ./myscript1
+  167  vim myscript1
+  168  ./myscript1
+  169  vim myscript1
+  170  ./myscript1
+  171  vim myscript1
+  172  vim myscript1
+  173  vim myscript1
+  174  ./myscript1
+  175  vim myscript1
+  176  ./myscript1
+  177  vim myscript1
+  178  ./myscript1
+  179  vim myscript1
+  180  ./myscript1
+  181  curl "http://162.55.220.72:5005"
+  182  u
+  183  curl "http://162.55.220.72:5005/terminal-hw-request"
+  184  curl http://162.55.220.72:5005/get_method?name=(Darya)&age=(25)"
+  185  curl http://162.55.220.72:5005/get_method?name=(Darya)&age=25"
+  186  curl http://162.55.220.72:5005/get_method?name=Darya&age=25"
+  187  curl http://162.55.220.72:5005/get_method?name= (Darya) &age= (25)"
+  188  curl "http://162.55.220.72:5005/get_method?name=(Darya)&age=(25)"
+  189  pwd
+  190  whoami
+  191  #!/bin/bash
+  192  touch myscript
+  193  ./myscript
+  194  vim myscript
+  195  cat myscript
+  196  myscript
+  197  chmod +x ./myscript
+  198  ./myscript
+  199  vim myscript
+  200  ./myscript
+  201  vim myscript
+  202  ./myscript
+  203  vim myscript
+  204  ./myscript
+  205  touch myscript1
+  206  vim myscript1
+  207  ./myscript1
+  208  ls
+  209  ./myscript1
+  210  chmod +x ./myscript1
+  211  myscript1
+  212  myscript
+  213  ./myscript1
+  214  ./myscript
+  215  ls
+  216  pwd
+  217  mkdir lesson
+  218  cd lesson
+  219  mkdir qa course VadimKsendzov
+  220  cd qa
+  221  touch one.txt two.txt three.txt
+  222  touch one.json two.json
+  223  mkdir project1 project2 project3
+  224  ls -la
+  225  vim one.txt
+  226  cd ..
+  227  mv cd qa
+  228  cd qa
+  229  mv one.txt/project1
+  230  mv one.txt project1
+  231  mv one.json project1
+  232  mv two.txt progect1/ two.json project1
+  233  cd project1
+  234  mv two.txt two.json project2
+  235  mv two.txt project2
+  236  mv two.json project2
+  237  cd ..
+  238  find darya.txt
+  239  grep darya.txt
+  240  cat three.txt
+  241  cat -b three.txt
+  242  cat -b 1 2 3 three.txt
+  243  cat -b 1 2 3 three.txt
+  244  head 3 three.txt
+  245  less three.txt
+  246  dste
+  247  date
+  248  http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"
+  249  tail -f three.txt
+  250  tail -f three.txt
+  251  tail -f three.txt | grep 09:27
+  252  tail -f three.txt | grep 09:37
+  253  tail -F three.txt | grep 09:38
+  254  tail -F three.txt | grep 14:05
+  255  tail -f three.txt | grep 14:06
+  256  tail -f three.txt | grep - - line -buffered 14:08
+  257  tail -f three.txt 
+  258  http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]
+  259  http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]
+  260  http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]
+  261  ["(set_your_String)","(set_your_number)\",\"result\":[\"Your_String\",\"Your_number\"]"]
+  262  http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]
+  263  ps
+  264  du
+  265  tail -f three.txt | grep time
+  266  tail -f three.txt | grep time 14:50
+  267  tail -f three.txt | grep 14:50
+  268  tail -f three.txt | cat 14:50
+  269  tail -f three.txt | 14:50
+  270  tail -f three.txt | grep14:50
+  271  tail -f three.txt |grep 14:50
+  272  tail -f three.txt |grep 14:51
+  273  tail -f three.txt |grep 14:52
+  274  tail -f three.txt | grep vDate 
+  275  tail -f three.txt | grep vDate= '2022-02-10 14:55' 
+  276  tail -f three.txt | grep vDate='2022-02-10 14:55' 
+  277  git clone 
+  278  tail -f three.txt
+  279  tail -f three.txt | grep 15:25
+  280  tail -f three.txt | grep 15:27
+  281  tail -f three.txt | grep - - line -buffered 15:30 >> top.txt 
+  282  tail -f three.txt | grep - - line -buffered 15:30 >> top.txt | grep 15:30
+  283  tail -f three.txt | grep - - line -buffered 15:30 >> f3.txt | grep 15:30
+  284  tail -f three.txt | grep - - line -buffered 15:32 >> f3.txt | tail f3.txt
+  285  http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]
+  286  http://162.55.220.72:5005/get_method?name=(set_your_string)&age=(set_your_number)","result":["Your_String","Your_number"]
+  287  http://162.55.220.72:5005/get_method?name=('set_your_string')&age=(set_your_number)","result":["Your_String","Your_number"]
+  288  http://162.55.220.72:5005/get_method?name=(set_your_string)&age=(set_your_number)","result":["Your_String","Your_number"]
+  289  http://162.55.220.72:5005/get_method&name=(set_your_string)&age=(set_your_number)","result":["Your_String","Your_number"]
+  290  curl http://162.55.220.72:5005/get_method?name=(set_your_string)&age=(set_your_number)","result":["Your_String","Your_number"]
+  291  curl "http://162.55.220.72:5005/get_method?name=(set_your_string)&age=(set_your_number)","result":["Your_String","Your_number"]"
+  292  darya
+  293  curl "http://162.55.220.72:5005/"
+  294  curl "http://162.55.220.72:5005/get_method?name=(set_your_string)&age=(set_your_number)","result":["Your_String","Your_number"]"
+  295  curl "http://162.55.220.72:5005/"
+  296  ./myscript1
+  297  ./myscript1
+  298  vim myscript1
+  299  pwd
+  300  mkdir foldername
+  301  cd foldername
+  302  mkdir r {1,2,3}
+  303  touch nane {1,2,3}.txt
+  304  touch nane.txt {1,2,3}
+  305  touch name {1,2,3}.txt
+  306  ./myscript
+  307  cd
+  308  ./myscript
+  309  cd 
+  310  ls
+  311  ls -la
+  312  cd Новая папка 2
+  313  cd Новая папка (2)
+  314  ./myscript1
+  315  vim myscript1
+  316  ./myscript1
+  317  vim myscript1
+  318  ./myscript1
+  319  mv 1.txt w1
+  320  pwd
+  321  ./myscript1
+  322  cd q1
+  323  mv 1.txt w1
+  324  vim myscript1
+  325  vim myscript1
+  326  vim myscript1
+  327  ./myscript1
+  328  cd q1
+  329  cd ..
+  330  vim myscript1
+  331  ./myscript1
+  332  vim myscript1
+  333  ./myscript1
+  334  ды-д
+  335  ls -l
+  336  cd q1
+  337  ls-l
+  338  ls -l
+  339  mv 1.txt/w1, 2.txt/w2
+  340  mv 1.txt/w1; 2.txt/w2
+  341  mv 1.txt/w1 2.txt/w2
+  342  mv 1.txt 2.txt/w2
+  343  mv w2/1.txt 2.txt
+  344  mv 1.txt/w1 2.txt/w1
+  345  mv 1.txt 2.txt w1/
+  346  vim myscript1
+  347  ./myscript1
+  348  dir
+  349  ls -la
+  350  mkdir group_27_1
+  351  ls
+  352  cd group_27_1
+  353  mkdir f_1 f_2 f_3
+  354  touch tt.txt
+  355  ls
+  356  ls -a
+  357  cd ..
+  358  cd .
+  359  cd group_27_1
+  360  ls -l
+  361  ls -la
+  362  ls -s -l
+  363  cd ..
+  364  ls -r
+  365  ls -R
+  366  ls -R -la
+  367  ls -t
+  368  ls -lat
+  369  cd group_27_1
+  370  ls
+  371  cat tt
+  372  cat tt.txt
+  373  cat > tt2.txt
+  374  ls -la
+  375  cat . ttn1.txt
+  376  111111111
+  377  cat > ttn1.txt
+  378  cat > ttn2.txt
+  379  cat ttn1.txt ttn2.txt
+  380  cat -b ttn2.txt 
+  381  cat -n ttn2.txt 
+  382  cat >> ttn2.txt
+  383  cat -n ttn2.txt
+  384  cat -n ttn2
+  385  cat -n ttn2.txt
+  386  history > hist_1.txt
+  387  cat ttn1.txt
+  388  cat ttn2.txt
+  389  cat >> ttn2.txt 
+  390  cat -s ttn2.txt
+  391  cat -b ttn2.txt
+  392  cat ttn2.txt | less
+  393  cat ttn2.txt | less
+  394  cat ttn2.txt 
+  395  cat ttn1.txt 
+  396  cat ttn3.txt 
+  397  cat ttn1.txt >> ttn2.txt
+  398  cat > ttn3.txt
+  399  cat ttn1.txt > ttn3.txt
+  400  cat ttn3.txt
+  401  cat ttn2.txt
+  402  cat ttn2.txt | sort
+  403  cat ttn1.txt
+  404  cat >> ttn3.txt
+  405  cat > ttn4.txt
+  406  cat  ttn4.txt
+  407  cat ttn1.txt ttn3.txt | > ttn4.txt
+  408  cat > ttn4.txt
+  409  cat ttn1.txt ttn3.txt > ttn4.txt
+  410  cat > ttn4.txt
+  411  cat  ttn4.txt
+  412  cd f_1
+  413  cat xx.txt
+  414  cat > xx.txt
+  415  cat > yy.txt
+  416  cd ..
+  417  cat > f_2/rrr.txt 
+  418  cat > ttn1.txt ttn2.txt > ttn4.txt
+  419  cat > ttn1.txt ttn2.txt | sort > ttn4.txt
+  420  cat > ttn1.txt | sort > ttn4.txt
+  421  cat ttn4.txt
+  422  cat > ttn1.txt ttn2.txt | sort > ttn4.txt
+  423  cat ttn4.txt
+  424  cat > ttn1.txt ttn2.txt > ttn4.txt
+  425  cat ttn4.txt
+  426  cd ..
+  427  find . -name ooo*
+  428  find . -name ooo*
+  429  find . -name ooo*
+  430  find . -name tt*
+  431  cd group_27_1
+  432  find . -name tt*
+  433  cat > ooo.txt
+  434  find . -name ooo*
+  435  find \group_27_1 -name ooo*
+  436  find group_27_1 -name ooo*
+  437  touch Ooo.txt
+  438  touch Oooo.txt
+  439  find group_27_1 -iname ooo*
+  440  find . -iname ooo*
+  441  touch Oooo1.txt
+  442  find . -iname ooo*
+  443  cd
+  444  find . -iname ooo*
+  445  cd f1
+  446  cd f_1
+  447  cd f_1
+  448  cd ..
+  449  cd Gitbash2
+  450  cd Gitbash
+  451  grep -r*
+  452  grep -r *
+  453  grep ooo *
+  454  grep -r ooo group_27_1
+  455  grep -r ooo f_1
+  456  grep ooo group_27_1/*
+  457  grep ooo group_27_1/{f_1, f_2}*
+  458  grep -i ooo group_27_1/{f_1, f_2}/*
+  459  grep -i ooo group_27_1/*
+  460  grep ooo * 
+  461  grep -r ooo * 
+  462  grep -r ooo * 
+  463  grep -l -r ooo * 
+  464  grep -l -r ooo * 
+  465  grep -l -r -i ooo * 
+  466  grep -r -i ooo * 
+  467  grep -i ooo * 
+  468  grep -l -r -i ooo * 
+  469  grep -ls -r -i ooo * 
+  470  grep -pwd -r -i ooo * 
+  471  find . -name * | grep -ir ooo
+  472  find  -name * | grep -ir ooo *
+  473  head ttn1.txt
+  474  head hist.txt
+  475  head hist_1.txt
+  476  tail hist_1.txt
+  477  tail -n3 hist_1.txt
+  478  tail -n3 ttn1.txt
+  479  tail -f ttn1.txt
+  480  grep nv *
+  481  find . -name tt.txt
+  482  ls -la
+  483  find . -name xx.txt
+  484  find f_1  xx *
+  485  find f_1  xx 
+  486  find f_1/xx 
+  487  find f_1/xx*
+  488  mv ./f1 1.txt ./f2
+  489  mv ./q1 1.txt ./q2
+  490  cd repozitoryiTXT
+  491  pwd
+  492  cat > new.txt
+  493  ls-la
+  494  ls -la
+  495  cd TXT
+  496  ls -la
+  497  git config - help
+  498  git config -help
+  499  git config 
+  500  git config -- global user.name "DaryaShramko"
+  501  ssh-keygen -t rsa -C "dashashramko1996@gmail.com"
+  502  git config -- global user.name "DaryaShramko"
+  503  ssh-keygen -t rsa -C "dashashramko1996@gmail.com"
+  504  git push
+  505  git push https://github.com/DaryaShramko/TXT.git
+  506  git push -help
+  507  cat /c/Users/Admin/.ssh/id_rsa
+  508  cat /c/Users/Admin/.ssh/id_rsa.pub
+  509  cat / c:/Users/Admin/.ssh/id_rsa.pub
+  510  cat /Users/Admin/.ssh/id_rsa.pub
+  511  git remote https://github.com/DaryaShramko/TXT.git
+  512  git push
+  513  git config
+  514  git config -- global user.name "DaryaShramko"
+  515  git config user.name "DaryaShramko"
+  516  git config user.email daryashramko1996@gmail.com
+  517  git config --list
+  518  git pull
+  519  git clone https://github.com/DaryaShramko/JSON.git
+  520  ls -la
+  521  cd JSON
+  522  cat new.json
+  523  cat > new.json
+  524  git status
+  525  git add new.json
+  526  git commit -m "add json file"
+  527  git push
+  528  cat new.json
+  529  cat > new.json
+  530  git push
+  531  git status
+  532  git add new.json
+  533  git status
+  534  git commit -m "change"
+  535  git push
+  536  cat > preferences.json
+  537  cat > preferences.json
+  538  cat > sklls.json 
+  539  git status
+  540  git add .
+  541  git status
+  542  git commit -m "some infotmation"
+  543  git push
+  544  cat > preferences.json
+  545  cat > preferences.json
+  546  git status
+  547  git add preferences.json
+  548  git status
+  549  git commit -m "changes"
+  550  git push
+  551  git pull
+  552  git clone https://github.com/DaryaShramko/XML.git
+  553  cd XML
+  554  cat > new.xml
+  555  git status
+  556  git add new.xml
+  557  git status
+  558  git commit -m "send"
+  559  git push
+  560  cat > preferences.xml
+  561  cat > sklls.xml
+  562  git status && git add . && git status && git commit -m "change" && git push
+  563  git pull
+  564  history > h2

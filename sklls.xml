@@ -1,2 +1,14 @@
-On Vadim's Ksendzov course I want to lern a lot of new information, e.g. about Jmeter GitBash script, terminal line, Postman, Charlie, SQL, Xcode. 
+<MySkillsAfterCourse>
+ <Skill1>Jmeter</Skill1>
+ <Skill2>GitBash</Skill2>
+ <Skill3>Some script</Skill3>
+ <Skill4>Postman</Skill4>
+ <Skill5>Android Studio</Skill5>
+ <Skill6> Xcode </Skill6>
+ <Skill7>Charlie</Skill7>
+ <Skill8>SQL</Skill8>
+</MySkillsAfterCourse>
+
+
+
 
